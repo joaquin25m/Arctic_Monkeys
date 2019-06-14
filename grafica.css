@@ -1,0 +1,57 @@
+body {background: black;
+font-family: 'Ranga', cursive;
+}
+header {
+}
+nav {font-size: 20px;
+text-align: center;
+}
+h1 {text-align: center;
+font-size: 50px;
+color: white;
+margin: 0;
+padding: 0;
+letter-spacing: 5px;
+}
+h2 {color: white;
+font-weight: bold;
+font-size: 40px;
+font-family: cursive;
+}
+nav li {display: inline-block;}
+#caja ol {display: inline-block;}
+#caja {position: relative;
+padding: 0;
+border: 0;
+margin: 0;
+}
+#caja2 {position: absolute;
+display: none;
+}
+#caja li:hover #caja2 {display: block;
+	color: white;
+}
+#contact {border-color: grey;
+	border-width: 6px;
+	border-style: solid;}
+.banda1 {color: white;
+background-image: url("fondo1.jpg");
+background-position: top;
+background-repeat: no-repeat;
+background-size:cover;
+padding-bottom: 350px
+}
+.banda2 {border-color: white;
+border-width: 6px;
+border-style: solid;
+}
+.historia1 {color: white;
+text-align: center;
+border-color: white;
+border-width: 2px;
+border-style: solid;
+}
+.album1 {color: white
+}
+.contacto1 {color: white
+}
