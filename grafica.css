@@ -1,5 +1,5 @@
 body {background: black;
-font-family: 'Ranga';
+	font-family: 'Ranga';
 }
 header {
 }
@@ -21,6 +21,7 @@ margin: 0;
 padding: 0;
 }
 td {padding: 0;
+  vertical-align: top;
 }
 nav ul {list-style-type: none;
   margin: 0;
@@ -40,7 +41,7 @@ nav li a {display: block;
 nav li a:hover {
   background-color: #111;
 }
-section li {float: left;
+section#banda1 li {float: left;
 width: 25%;
 }
 #submenu {position: absolute;
@@ -54,10 +55,16 @@ padding: 0;
 	border-width: 6px;
 	border-style: solid;
 }
-.banda1 {color: white;
+#banda1 {color: white;
+  overflow: auto;
+}
+#banda2 {
+  overflow: auto;
 }
 .historia1 {color: white;
+height: 100%; 
 text-align: center;
+font-size: 30px;
 border-color: white;
 border-width: 2px;
 border-style: solid;
@@ -66,3 +73,21 @@ border-style: solid;
 }
 .contacto1 {color: white
 }
+
+
+
+@media only screen and (min-width: 961px) {
+  body {
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+  }
+}
+
